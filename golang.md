@@ -1,7 +1,4 @@
 
----
-
-```markdown
 # 🚀 Project: Build Your Own URL Shortener in Go
 
 Welcome! Over the next few weeks, we are moving away from "gaming" and diving into **Systems Engineering**. We are using **Go** (or Golang), a language created by Google to power the world's biggest servers. 
