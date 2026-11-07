@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "tictactoe": {
+      "command": "go",
+      "args": ["run", "./ai-lessons/lesson-12-mcp/main.go"]
+    }
+  }
+}
+
