@@ -9,7 +9,9 @@ An MCP (Model Context Protocol) server implemented in Go using standard JSON-RPC
 
 ## Running & Testing Standalone
 
-Run directly with Go:
+> **Note:** When using Antigravity IDE, you **do not** need to start `main.go` manually. Antigravity IDE launches and manages the server as a child process automatically via the stdio transport.
+
+To manually test or debug the server via terminal:
 
 ```bash
 go run main.go

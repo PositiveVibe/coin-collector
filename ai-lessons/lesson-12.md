@@ -83,6 +83,10 @@ Add the `tictactoe` server configuration:
 ```
 *(Replace `/absolute/path/to/coin-collector` with your workspace's actual path, e.g. `/Users/yourusername/coin-collector`).*
 
+> [!NOTE] Do students need to run `main.go` in a separate terminal?
+> **No!** Because MCP uses the **Stdio transport**, Antigravity IDE (the client) automatically launches `go run ...` as a background child process and handles JSON-RPC communication through standard input/output (`stdin`/`stdout`). You do not need to keep a terminal tab running.
+
+
 ### Step 3: Verify Tool Discovery
 Return to **Manage MCP Servers** (via `⋮` in the Agent Panel). You should see `tictactoe` listed with a green status indicator and two tools:
 * `get_board`
